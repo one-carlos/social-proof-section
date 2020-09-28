@@ -19,7 +19,7 @@
     }
 
     h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .intro {
@@ -31,16 +31,27 @@
         margin-right: 8px;
     }
 
+    .section-intro {
+        margin-bottom: 2.5rem !important;
+    }
+    
+    .ratings .col-12 {
+        margin: 0.15rem 0;
+    }
+
+    #testimonials {
+        margin-top: 2.5rem !important;
+    }
+
     .testimonial-container-outer {
-        margin-top: 0px;
+        margin-top: 1rem;
+        &:first-child {
+            margin-top: 0px;
+        }
     }
 
     .testimonial {
         padding-top: 0.25rem;
         padding-bottom: 0.25rem;
-    }
-
-    .ratings .col-12 {
-        margin: 0.15rem 0;
     }
 }
