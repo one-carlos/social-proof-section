@@ -51,7 +51,7 @@ const populateTestimonials = () => {
             </div>
             </div>
         </div>`
-    );
+    ).join('');
 }
 
 populateRatings();
