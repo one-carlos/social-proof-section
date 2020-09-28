@@ -1,0 +1,24 @@
+{
+  "name": "social-proof-section-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch styles -o styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-carlos/social-proof-section.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/one-carlos/social-proof-section/issues"
+  },
+  "homepage": "https://github.com/one-carlos/social-proof-section#readme"
+}

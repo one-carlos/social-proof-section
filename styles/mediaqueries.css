@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .testimonial-container-outer:first-child {
+    margin-top: 0px; }
+  .testimonial-container-outer:last-child {
+    margin-top: 2rem; } }
+
+@media (max-width: 767px) {
+  body {
+    background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg"); }
+  h1, .intro, .ratings {
+    text-align: center; }
+  h1 {
+    font-size: 2.2rem; }
+  .intro {
+    letter-spacing: -0.02rem; }
+  .content {
+    margin-left: 8px;
+    margin-right: 8px; }
+  .testimonial-container-outer {
+    margin-top: 0px; }
+  .testimonial {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; }
+  .ratings .col-12 {
+    margin: 0.15rem 0; } }
